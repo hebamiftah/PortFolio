@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+  background-color: #3fd4f4;
+
+  margin: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Details Section */
+.details {
+  width: 100%;
+  padding: 30px 50px;
+  text-align: center;
+  line-height: 1.6;
+}
+.details h1 {
+  font-size: 35px;
+}
+.details h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+/*Project Section */
+.projects {
+  width: 90%;
+
+  border: 1px solid black;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 50px;
+}
+.projects .tagline {
+  font-size: 30px;
+}
+.projectCard {
+  background-color: beige;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.projectCard h1 {
+  font-weight: 400;
+  font-size: 22px;
+}
+.projectCard .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.projectCard a {
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.projectCard a i {
+  font-size: 20px;
+}
+.projectCard a p {
+  font-size: 18px;
+}
+.projectCard a:hover {
+  transform: scale(0.95);
+}
