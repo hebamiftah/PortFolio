@@ -81,9 +81,11 @@ body {
 
 .projectCard a i {
   font-size: 20px;
+  color: #04308e;
 }
 .projectCard a p {
   font-size: 18px;
+  color: #037791;
 }
 .projectCard a:hover {
   transform: scale(0.95);
